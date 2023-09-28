@@ -1,0 +1,74 @@
+.container{
+    background-color: rgb(159, 176, 171);
+    display: flex;
+    font-family: Work Sans;
+    height: 85vh;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 140px;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: Playfair Display;
+    padding-left: 250px;
+}
+
+.sld{
+    color:rgb(78, 25, 25);
+}
+
+.person h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    color:rgb(255, 241, 241)
+}
+
+.person h3{
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.box{
+    display: flex;
+    padding-right: 200px;
+    justify-content: flex-end;
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+.img{
+    display: flex;
+    max-width: 100%;
+    height: 60%;
+}
+
+.btn{
+    align-items: center;
+    border-radius: 0.125rem;
+    color: rgb(255 255 255);
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    transition-duration: .15s;
+    transition-property: all;
+    background-color: rgb(145 47 64);
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    width: 200px;
+    font-size: 17px;
+}
+
+.btn:hover{
+    color:darkslategray;
+    background-color: azure;
+    box-shadow: 0 5px 5px rgb(171, 142, 111);
+    cursor: pointer;
+}
