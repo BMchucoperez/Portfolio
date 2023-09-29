@@ -6,7 +6,7 @@ const Project = () => {
     return(
         <div id="projects-section" className={styles.container}>
             <h1>My Projects</h1>
-            <div>
+            <div className={styles.txt}>
                 <h3>I like to learn new things and I'm always looking for new projects to work on.</h3>
                 <h3>So here I show you some of my latest projects.</h3>
             </div>

@@ -14,8 +14,7 @@ const Home = () => {
             <div className={styles.person}>
                 <h3 className={styles.sld}>Hi, I'm Bryann!🖐</h3>
                 <h1>Full Stack Developer</h1>
-                <h3>I love being able to learn something everyday by engaging in experiments and working on projects. </h3>
-                <h3>It's not only a job, is a passion.</h3>
+                <h3>It's not just a job, it's a passion</h3>
                 <br />
                 <button className={styles.btn} onClick={scrollToContact}>Work with me</button>
             </div>

@@ -1,86 +1,178 @@
-.container{
-    display: flex;
-    background-color: rgb(159, 176, 171);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 130px;
-    padding-bottom: 130px;
+@media (min-width: 768px){
+    .container{
+        display: flex;
+        background-color: rgb(159, 176, 171);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    
+    .container h1{
+        color:rgb(255, 241, 241);
+    }
+    
+    .form{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    
+    .nameEmail{
+        display: flex;
+        justify-content: space-around;
+        gap: 6rem;
+        width: 93%;
+    }
+    
+    .message{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    input{
+        background-color: rgb(28 29 36);
+        border-radius: 0.125rem;
+        color: rgb(135 142 153);
+        font-family: Work Sans;
+        font-size: 17px;
+        height: 60px;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        padding-left: 1.5rem;
+        width: 102%;
+    }
+    
+    textarea{
+        background-color: rgb(28 29 36);
+        border-radius: 0.125rem;
+        height: 200px;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        padding: 1.5rem;
+        resize: none;
+        width: 100%;
+        color: rgb(135 142 153);
+        font-size: 17px;
+        font-family: Work Sans;
+    }
+    
+    .btn{
+        align-items: center;
+        border-radius: 0.125rem;
+        color: rgb(255 255 255);
+        display: flex;
+        font-weight: 500;
+        justify-content: center;
+        padding: 1rem 1.75rem;
+        transition-duration: .15s;
+        transition-property: all;
+        background-color: rgb(145 47 64);
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+        width: 200px;
+        font-size: 17px;
+    }
+    
+    .btn:hover{
+        color:darkslategray;
+        background-color: azure;
+        box-shadow: 0 5px 5px rgb(171, 142, 111);
+        cursor: pointer;
+    }
+    
+    .txt{
+        color: rgb(150, 36, 36);
+    }
 }
 
-.container h1{
-    color:rgb(255, 241, 241);
-}
-
-.form{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-}
-
-.nameEmail{
-    display: flex;
-    justify-content: space-around;
-    gap: 6rem;
-    width: 93%;
-}
-
-.message{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-input{
-    background-color: rgb(28 29 36);
-    border-radius: 0.125rem;
-    color: rgb(135 142 153);
-    font-family: Work Sans;
-    font-size: 17px;
-    height: 60px;
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-    padding-left: 1.5rem;
-    width: 102%;
-}
-
-textarea{
-    background-color: rgb(28 29 36);
-    border-radius: 0.125rem;
-    height: 200px;
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-    padding: 1.5rem;
-    resize: none;
-    width: 100%;
-    color: rgb(135 142 153);
-    font-size: 17px;
-    font-family: Work Sans;
-}
-
-.btn{
-    align-items: center;
-    border-radius: 0.125rem;
-    color: rgb(255 255 255);
-    display: flex;
-    font-weight: 500;
-    justify-content: center;
-    padding: 1rem 1.75rem;
-    transition-duration: .15s;
-    transition-property: all;
-    background-color: rgb(145 47 64);
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    width: 200px;
-    font-size: 17px;
-}
-
-.btn:hover{
-    color:darkslategray;
-    background-color: azure;
-    box-shadow: 0 5px 5px rgb(171, 142, 111);
-    cursor: pointer;
-}
-
-.txt{
-    color: rgb(150, 36, 36);
+@media (max-width: 767px){
+    .container{
+        display: flex;
+        background-color: rgb(159, 176, 171);
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 130px;
+    }
+    
+    .container h1{
+        color:rgb(255, 241, 241);
+    }
+    
+    .form{
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+    }
+    
+    .nameEmail{
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        width: 90%;
+    }
+    
+    .message{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    input{
+        background-color: rgb(28 29 36);
+        border-radius: 0.125rem;
+        color: rgb(135 142 153);
+        font-family: Work Sans;
+        font-size: 17px;
+        height: 60px;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        padding-left: 1.5rem;
+        width: 100%;
+    }
+    
+    textarea{
+        background-color: rgb(28 29 36);
+        border-radius: 0.125rem;
+        height: 200px;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        resize: none;
+        width: 100%;
+        color: rgb(135 142 153);
+        font-size: 17px;
+        font-family: Work Sans;
+    }
+    
+    .btn{
+        align-items: center;
+        border-radius: 0.125rem;
+        color: rgb(255 255 255);
+        display: flex;
+        font-weight: 500;
+        justify-content: center;
+        padding: 1rem 1.75rem;
+        transition-duration: .15s;
+        transition-property: all;
+        background-color: rgb(145 47 64);
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+        width: 200px;
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    
+    .btn:hover{
+        color:darkslategray;
+        background-color: azure;
+        box-shadow: 0 5px 5px rgb(171, 142, 111);
+        cursor: pointer;
+    }
+    
+    .txt{
+        color: rgb(150, 36, 36);
+    }
 }

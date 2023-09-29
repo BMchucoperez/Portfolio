@@ -39,14 +39,15 @@
     .icons{
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
         margin-bottom: 30px;
         margin-top: 50px;
     }
     
     .icons img:hover{
         transform: scale(1.09);
+        margin-bottom: 20px; /* Espacio entre íconos */
     }
 }
