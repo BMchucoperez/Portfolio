@@ -101,9 +101,10 @@
     }
     
     .person h1{
-        font-size: 5rem;
+        font-size: 4.5rem;
         font-weight: bolder;
-        color:rgb(255, 241, 241)
+        color:rgb(255, 241, 241);
+        width: 90%;
     }
     
     .person h3{
