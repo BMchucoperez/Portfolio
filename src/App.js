@@ -16,12 +16,12 @@ function App(){
     }, [navbarVisible]);
 
     return(
-        <>
+        <div>
             {navbarVisible && <Navbar />}
             <Routes>
                 <Route path="/" element = {<Landing/>}/>
             </Routes>
-        </>
+        </div>
     );
 }
 

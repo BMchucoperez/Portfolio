@@ -3,6 +3,7 @@ import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Project from "../Project/Project";
 import Contact from "../Contact/Contact";
+import ButtonBack from "../ButtonBack/ButtonBack";
 
 const Landing = () => {
     return(
@@ -12,6 +13,7 @@ const Landing = () => {
             <Skills />
             <Project />
             <Contact />
+            <ButtonBack />
         </div>
     );
 };
