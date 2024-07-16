@@ -1,0 +1,24 @@
+.buttonBack {
+    background-color:rgb(145 47 64); 
+    width: 3rem;
+    height: 3rem; 
+    border-radius: 50%;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    border:none;
+  }
+  
+  .buttonBack:hover {
+    background-color:rgb(141, 75, 86);
+  }
+  
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
