@@ -20,35 +20,30 @@ const Project = () => {
                         <img className={styles.img} src={snake} alt="snake" />
                     </a>
                     <h2>Snake Game</h2>
-                    <h4>Single Page Application for searching and creating healthy recipes</h4>
                 </div>
                 <div className={styles.card}>
                     <a href="https://playpianoapp.netlify.app/">
                         <img className={styles.img} src={piano} alt="piano" />
                     </a>
                     <h2>Piano App</h2>
-                    <h4>Single Page Application for searching and creating healthy recipes</h4>
                 </div>
                 <div className={styles.card}>
                     <a href="https://ecopaws.netlify.app/">
                         <img className={styles.img} src={ecopaws} alt="ecopaws" />
                     </a>
                     <h2>EcoPaws</h2>
-                    <h4>Single Page Application for searching and creating healthy recipes</h4>
                 </div>
                 <div className={styles.card}>
                     <a href="https://github.com/BMchucoperez/Proyecto_RickAndMorty">
                         <img className={styles.img} src={Rick} alt="Rick" />
                     </a>
                     <h2>Rick and Morty App</h2>
-                    <h4>Single Page Application that uses a Rick and Morty API</h4>
                 </div>
                 <div className={styles.card}>
                     <a href="https://github.com/BMchucoperez/PI_Food_Henry">
                         <img className={styles.img} src={Food} alt="Food" />
                     </a>
                     <h2>Healthy Cooking Guide</h2>
-                    <h4>Single Page Application for searching and creating healthy recipes</h4>
                 </div>
             </div>
             <br />
